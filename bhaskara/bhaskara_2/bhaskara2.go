@@ -30,7 +30,7 @@ func main() {
 			fmt.Printf("Outch! :-(\n")
 			fmt.Printf("Infelizmente o valor de Delta é negativo. Por favor, reinsira os dados.\n")
 		case d == 0:
-			x1 = (-b + d) / (2 * a)
+			x1 = -b / (2 * a)
 			fmt.Printf("O valor de X é: %v\n", x1)
 		default:
 			x1 = (-b + raizd) / (2 * a)
